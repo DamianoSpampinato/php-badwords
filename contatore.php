@@ -20,6 +20,7 @@ $paragraphCensured = str_replace($censuredTolower, '***', $paragraphToLower);
     <div>lunghezza paragrafo <?php echo strlen($paragraph);?></div>
     <div>paragrafo censurato</div>
     <p><?php echo $paragraphCensured; ?></p>
+    <div> lunghezza paragrafo Censurato <?php echo strlen($paragraphCensured) ?></div>
 
 </body>
 </html>
